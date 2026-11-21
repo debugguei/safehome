@@ -1,0 +1,93 @@
+/* SafeHome — design system
+   App de monitoramento de gás e fumaça. Visual minimalista e sério,
+   uma cor de destaque, neutros frios, cantos suaves e modo escuro nativo. */
+
+:root {
+  /* Marca / destaque */
+  --sh-brand: #2f6bff;
+  --sh-brand-strong: #1f4fd6;
+
+  /* Cor de destaque do Ionic = marca */
+  --ion-color-primary: #2f6bff;
+  --ion-color-primary-rgb: 47, 107, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #295ee0;
+  --ion-color-primary-tint: #447aff;
+
+  /* Semânticos (estados) refinados */
+  --ion-color-success: #1f9d57;
+  --ion-color-success-rgb: 31, 157, 87;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-shade: #1b8a4c;
+  --ion-color-success-tint: #35a768;
+
+  --ion-color-warning: #e0a008;
+  --ion-color-warning-rgb: 224, 160, 8;
+  --ion-color-warning-contrast: #1a1200;
+  --ion-color-warning-shade: #c58d07;
+  --ion-color-warning-tint: #e3ac21;
+
+  --ion-color-danger: #e03e3e;
+  --ion-color-danger-rgb: 224, 62, 62;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-shade: #c63737;
+  --ion-color-danger-tint: #e35151;
+
+  /* Tokens próprios usados pelas telas */
+  --sh-radius: 20px;
+  --sh-radius-sm: 14px;
+  --sh-gap: 16px;
+  --sh-surface: #ffffff;
+  --sh-surface-2: #f4f6fb;
+  --sh-elev: 0 6px 20px rgba(17, 24, 39, 0.08);
+  --sh-elev-sm: 0 1px 2px rgba(17, 24, 39, 0.06);
+  --sh-border: rgba(17, 24, 39, 0.08);
+  --sh-muted: #6b7384;
+
+  /* Fundo geral mais frio que branco puro */
+  --ion-background-color: #f4f6fb;
+  --ion-background-color-rgb: 244, 246, 251;
+  --ion-text-color: #141821;
+  --ion-text-color-rgb: 20, 24, 33;
+  --ion-item-background: #ffffff;
+  --ion-toolbar-background: #f4f6fb;
+  --ion-tab-bar-background: rgba(255, 255, 255, 0.92);
+  --ion-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+}
+
+/* ===== Modo escuro ===== */
+.ion-palette-dark {
+  --sh-brand: #5b8bff;
+  --sh-brand-strong: #7aa2ff;
+
+  --ion-color-primary: #5b8bff;
+  --ion-color-primary-rgb: 91, 139, 255;
+  --ion-color-primary-contrast: #0a1020;
+  --ion-color-primary-contrast-rgb: 10, 16, 32;
+  --ion-color-primary-shade: #507bE0;
+  --ion-color-primary-tint: #6c97ff;
+
+  --ion-color-success: #35c07b;
+  --ion-color-success-rgb: 53, 192, 123;
+  --ion-color-warning: #f5bd3f;
+  --ion-color-warning-rgb: 245, 189, 63;
+  --ion-color-danger: #ff5b5b;
+  --ion-color-danger-rgb: 255, 91, 91;
+
+  --sh-surface: #151a24;
+  --sh-surface-2: #0d1017;
+  --sh-elev: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --sh-elev-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --sh-border: rgba(255, 255, 255, 0.09);
+  --sh-muted: #8b93a7;
+
+  --ion-background-color: #0d1017;
+  --ion-background-color-rgb: 13, 16, 23;
+  --ion-text-color: #eef1f7;
+  --ion-text-color-rgb: 238, 241, 247;
+  --ion-item-background: #151a24;
+  --ion-toolbar-background: #0d1017;
+  --ion-tab-bar-background: rgba(13, 16, 23, 0.92);
+  --ion-color-step-150: #1b212d;
+}

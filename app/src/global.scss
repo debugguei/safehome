@@ -1,0 +1,78 @@
+/* Estilos globais SafeHome — complementam o tema em src/theme/variables.scss */
+
+ion-content {
+  --background: var(--ion-background-color);
+}
+
+/* Barra de topo discreta; o título grande (condense) dá a cara nativa */
+ion-toolbar {
+  --background: var(--ion-toolbar-background);
+  --border-width: 0;
+  --min-height: 52px;
+}
+
+ion-title.sh-grande {
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  padding-inline: 20px;
+}
+
+/* Barra de abas translúcida */
+ion-tab-bar {
+  --background: var(--ion-tab-bar-background);
+  border-top: 1px solid var(--sh-border);
+  backdrop-filter: saturate(180%) blur(14px);
+  padding-top: 4px;
+}
+ion-tab-button {
+  --color: var(--sh-muted);
+  --color-selected: var(--ion-color-primary);
+}
+
+/* Cabeçalhos de seção */
+.sh-secao {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sh-muted);
+  margin: 24px 20px 10px;
+}
+
+/* Cartão base reutilizável */
+.sh-card {
+  background: var(--sh-surface);
+  border: 1px solid var(--sh-border);
+  border-radius: var(--sh-radius);
+  box-shadow: var(--sh-elev-sm);
+  margin: 0 16px 12px;
+}
+
+/* Listas inset com cara de app */
+ion-list.sh-lista {
+  background: var(--sh-surface);
+  border: 1px solid var(--sh-border);
+  border-radius: var(--sh-radius-sm);
+  margin: 0 16px 12px;
+  overflow: hidden;
+  padding: 0;
+}
+ion-list.sh-lista ion-item {
+  --background: var(--sh-surface);
+  --border-color: var(--sh-border);
+  --padding-start: 16px;
+  --inner-padding-end: 16px;
+}
+
+ion-badge {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  border-radius: 999px;
+  padding: 5px 10px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ion-color-primary);
+  outline-offset: 2px;
+}
