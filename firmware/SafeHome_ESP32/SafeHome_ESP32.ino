@@ -18,7 +18,7 @@ const char* DEVICE_TOKEN = "";
 
 // ===================== Pinos =====================
 // Entradas analógicas (use ADC1: 32..39, que funcionam com o Wi-Fi ligado)
-const int PIN_MQ2 = 36; // fumaça
+const int PIN_MQ2 = 34; // fumaça
 const int PIN_MQ5 = 32; // gás natural
 const int PIN_MQ6 = 35; // GLP
 
